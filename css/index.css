@@ -111,7 +111,10 @@
 .nav .navinner ul>li:hover{
     color: red;
 }
-.nav .navinner ul>li>span{
+.nav .navinner ul>li:hover .base_no{
+    color: #999;
+}
+.nav .navinner ul>li>.base_a{
     color: red;
 }
 .nav .navinner>span{
