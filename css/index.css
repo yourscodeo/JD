@@ -119,14 +119,14 @@
     color: red;
 }
 .nav .navinner .header_left{
-    margin-left: 196px;
+    margin-left: 190px;
     float: left;
     font-size: 12px;
     line-height: 30px;
     color: #999999;
 }
 .navinner .header_left:hover{
-    color:#f10215;
+    background-color: #fff;
 }
 .navinner .header_left:hover .mune{
     display: block;
@@ -141,7 +141,7 @@
     color: red;
 }
 .header_left p{
-    width: 70px;
+    width: 40px;
     height: 30px;
     line-height: 30px;
     font-size: 90%;
@@ -151,11 +151,12 @@
             width: 300px;
             height: 400px;
             position: absolute;
-            left: 240px;
+            left: 235px;
             top: 110px;
             background-color: #fff;
             display: none;
             z-index: 50;
+            padding-top: 10px;
         }
         .mune .top{
             width: 300px;
@@ -177,7 +178,7 @@
             margin-top: 5px;
             /*margin-left: -10px;*/
             list-style: none;
-            font-size: 70%;
+            font-size: 80%;
             text-align: center;
             line-height: 20px;
             margin-left: 5px;
@@ -191,7 +192,7 @@
             height: 30px;
             line-height: 30px;
             margin-left: 10px;
-            font-size: 70%;
+            font-size: 80%;
             border-top: 0.1px solid #999;
             color: #999;
 
@@ -201,7 +202,7 @@
             height: 30px;
             line-height: 30px;
             margin-left: 10px;
-            font-size: 70%;
+            font-size: 80%;
             border-bottom: 0.1px solid #999;
         }
         .mune .three a{
